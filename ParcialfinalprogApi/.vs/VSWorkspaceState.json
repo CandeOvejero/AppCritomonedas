@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ParcialfinalprogApi",
+    "\\ParcialfinalprogApi\\Controllers",
+    "\\ParcialfinalprogApi\\Data",
+    "\\ParcialfinalprogApi\\Migrations",
+    "\\ParcialfinalprogApi\\Models"
+  ],
+  "SelectedNode": "\\ParcialfinalprogApi\\Data\\AppDbContext.cs",
+  "PreviewInSolutionExplorer": false
+}

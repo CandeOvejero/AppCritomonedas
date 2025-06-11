@@ -33,12 +33,12 @@ namespace ParcialfinalprogApi.Controllers
                 return BadRequest("Intente con una cantidad valida");
 
             if (transaccion.Action != "purchase" && transaccion.Action != "sale")
-                return BadRequest("Intente nuevamente, la accion tiene que ser 'purchase' o 'sale'");
+                return BadRequest("Intente nuevamente, la accion tiene que ser 'compra' o 'venta'");
 
             if (transaccion.DateTime == DateTime.MinValue)
                 return BadRequest("Intente con una fecha valida");
 
-            // Validar que no se venda más de lo que se tiene
+
             if (transaccion.Action == "sale")
             {
                 decimal compras = _context.Transacciones
@@ -55,13 +55,11 @@ namespace ParcialfinalprogApi.Controllers
                     return BadRequest($"No se pudo realizar la venta {transaccion.CryptoAmount}. Monto insuficiente {disponible}.");
             }
 
-            // Consultar precio actual en CriptoYa
+
             decimal precioActual = await ObtenerPrecioActual(transaccion.CryptoCode);
 
-            // Calcular el money
             transaccion.Money = transaccion.CryptoAmount * precioActual;
 
-            // Guardar en la base
             _context.Transacciones.Add(transaccion);
             _context.SaveChanges();
 
@@ -85,7 +83,7 @@ namespace ParcialfinalprogApi.Controllers
                 {
                     var root = doc.RootElement;
 
-                    decimal precio = root.GetProperty("totalBid").GetDecimal(); // usamos totalBid
+                    decimal precio = root.GetProperty("totalBid").GetDecimal();
 
                     return precio;
                 }
