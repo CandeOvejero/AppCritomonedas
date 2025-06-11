@@ -16,8 +16,8 @@
   <div id="app">
     <nav>
       <button @click="vista = 'inicio'">Inicio</button>
-      <button @click="vista = 'cartera'">Cartera</button>
-      <button @click="vista = 'registro'">Registrar operación</button>
+      <button @click="vista = 'cartera'">Billetera</button>
+      <button @click="vista = 'registro'">Registrar transaccion</button>
       <button @click="vista = 'historial'">Historial</button>
       <button @click="vista = 'comprobantes'">Comprobantes</button>
     </nav>
@@ -29,7 +29,7 @@
 
     <section v-if="vista === 'cartera'">
       <h2>Análisis de Cartera</h2>
-      <button @click="calcularAnalisis">Actualizar análisis</button>
+      <button @click="calcularAnalisis">Actualizar</button>
 
       <div class="tarjetas-cartera">
         <div class="tarjeta-cartera" v-for="item in analisis" :key="item.code">
@@ -43,7 +43,7 @@
     </section>
 
     <section v-if="vista === 'registro'">
-      <h2>Registrar nueva operación</h2>
+      <h2>Registrar nueva transaccion</h2>
       <form @submit.prevent="guardarTransaccion">
         <select v-model="form.cryptoCode" required>
           <option disabled value="">Cripto</option>
