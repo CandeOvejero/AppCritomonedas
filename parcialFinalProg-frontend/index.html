@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto Cartera</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <video autoplay muted loop id="videoFondo">
+    <source src="videoCripto.mp4" type="video/mp4">
+  </video>
+
+  <div id="app">
+    <nav>
+      <button @click="vista = 'inicio'">Inicio</button>
+      <button @click="vista = 'cartera'">Cartera</button>
+      <button @click="vista = 'registro'">Registrar operación</button>
+      <button @click="vista = 'historial'">Historial</button>
+      <button @click="vista = 'comprobantes'">Comprobantes</button>
+    </nav>
+
+    <section v-if="vista === 'inicio'">
+      <h1>Bienvenido a la app de criptos para Programación III</h1>
+      <p>Desde aquí podrás administrar tus criptomonedas, registrar compras y ventas :)</p>
+    </section>
+
+    <section v-if="vista === 'cartera'">
+      <h2>Análisis de Cartera</h2>
+      <button @click="calcularAnalisis">Actualizar análisis</button>
+
+      <div class="tarjetas-cartera">
+        <div class="tarjeta-cartera" v-for="item in analisis" :key="item.code">
+          <h3>{{ nombreCripto(item.code) }}</h3>
+          <p><strong>Cantidad:</strong> {{ item.cantidad }}</p>
+          <p><strong>Valor actual (ARS):</strong> ${{ item.valorActual.toFixed(2) }}</p>
+        </div>
+      </div>
+
+      <h3 style="margin-top: 20px;">Total en ARS: ${{ totalCartera.toFixed(2) }}</h3>
+    </section>
+
+    <section v-if="vista === 'registro'">
+      <h2>Registrar nueva operación</h2>
+      <form @submit.prevent="guardarTransaccion">
+        <select v-model="form.cryptoCode" required>
+          <option disabled value="">Cripto</option>
+          <option>btc</option>
+          <option>eth</option>
+          <option>usdc</option>
+        </select>
+
+        <select v-model="form.action" required>
+          <option disabled value="">Acción</option>
+          <option value="purchase">Compra</option>
+          <option value="sale">Venta</option>
+        </select>
+
+        <input v-model.number="form.cryptoAmount" placeholder="Cantidad" type="number" required>
+        <input v-model="form.dateTime" type="datetime-local" required>
+
+        <button type="submit">{{ editando ? 'Actualizar' : 'Guardar' }}</button>
+        <button type="button" @click="cancelarEdicion" v-if="editando">Cancelar</button>
+      </form>
+    </section>
+
+    <section v-if="vista === 'historial'">
+      <h2>Historial de Transacciones</h2>
+      <div class="tabla-contenedor">
+        <table class="tabla-historial">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Cripto</th>
+              <th>Acción</th>
+              <th>Cantidad</th>
+              <th>ARS</th>
+              <th>Fecha</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="tx in transacciones" :key="tx.id">
+              <td>{{ tx.id }}</td>
+              <td>{{ nombreCripto(tx.cryptoCode) }}</td>
+              <td>{{ nombreAccion(tx.action) }}</td>
+              <td>{{ tx.cryptoAmount }}</td>
+              <td>${{ tx.money.toFixed(2) }}</td>
+              <td>{{ formatFecha(tx.dateTime) }}</td>
+              <td>
+                <button @click="mostrarComprobante(tx)">Ver</button>
+                <button @click="borrar(tx.id)">Borrar</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section v-if="vista === 'comprobantes'">
+  <h2>Comprobante seleccionado</h2>
+  <div v-if="comprobanteActual" class="comprobante grande">
+    <h3>Comprobante #{{ comprobanteActual.id }}</h3>
+    <p><strong>Acción:</strong> {{ nombreAccion(comprobanteActual.action) }}</p>
+    <p><strong>Criptomoneda:</strong> {{ nombreCripto(comprobanteActual.cryptoCode) }}</p>
+    <p><strong>Cantidad:</strong> {{ comprobanteActual.cryptoAmount }}</p>
+    <p><strong>Valor en ARS:</strong> ${{ comprobanteActual.money.toFixed(2) }}</p>
+    <p><strong>Fecha:</strong> {{ formatFecha(comprobanteActual.dateTime) }}</p>
+  </div>
+  <div v-else>
+    <p>No se ha seleccionado ningún comprobante.</p>
+  </div>
+  <hr>
+  <h2>Todos los comprobantes</h2>
+  <div v-for="tx in transacciones" :key="tx.id" class="comprobante">
+    <h3>Comprobante #{{ tx.id }}</h3>
+    <p><strong>Acción:</strong> {{ nombreAccion(tx.action) }}</p>
+    <p><strong>Criptomoneda:</strong> {{ nombreCripto(tx.cryptoCode) }}</p>
+    <p><strong>Cantidad:</strong> {{ tx.cryptoAmount }}</p>
+    <p><strong>Valor en ARS:</strong> ${{ tx.money.toFixed(2) }}</p>
+    <p><strong>Fecha:</strong> {{ formatFecha(tx.dateTime) }}</p>
+  </div>
+</section>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

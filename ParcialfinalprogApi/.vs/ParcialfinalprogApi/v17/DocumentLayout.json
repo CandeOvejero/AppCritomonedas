@@ -1,0 +1,209 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06154F4F-1E02-440C-BB5C-9FCC9960D745}|ParcialfinalprogApi\\ParcialfinalprogApi.csproj|c:\\users\\cande\\onedrive\\escritorio\\parcialfinalprogapi\\parcialfinalprogapi\\parcialfinalprogapi\\controllers\\transaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06154F4F-1E02-440C-BB5C-9FCC9960D745}|ParcialfinalprogApi\\ParcialfinalprogApi.csproj|solutionrelative:parcialfinalprogapi\\controllers\\transaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06154F4F-1E02-440C-BB5C-9FCC9960D745}|ParcialfinalprogApi\\ParcialfinalprogApi.csproj|c:\\users\\cande\\onedrive\\escritorio\\parcialfinalprogapi\\parcialfinalprogapi\\parcialfinalprogapi\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06154F4F-1E02-440C-BB5C-9FCC9960D745}|ParcialfinalprogApi\\ParcialfinalprogApi.csproj|solutionrelative:parcialfinalprogapi\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06154F4F-1E02-440C-BB5C-9FCC9960D745}|ParcialfinalprogApi\\ParcialfinalprogApi.csproj|c:\\users\\cande\\onedrive\\escritorio\\parcialfinalprogapi\\parcialfinalprogapi\\parcialfinalprogapi\\controllers\\monedacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06154F4F-1E02-440C-BB5C-9FCC9960D745}|ParcialfinalprogApi\\ParcialfinalprogApi.csproj|solutionrelative:parcialfinalprogapi\\controllers\\monedacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06154F4F-1E02-440C-BB5C-9FCC9960D745}|ParcialfinalprogApi\\ParcialfinalprogApi.csproj|c:\\users\\cande\\onedrive\\escritorio\\parcialfinalprogapi\\parcialfinalprogapi\\parcialfinalprogapi\\models\\moneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06154F4F-1E02-440C-BB5C-9FCC9960D745}|ParcialfinalprogApi\\ParcialfinalprogApi.csproj|solutionrelative:parcialfinalprogapi\\models\\moneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06154F4F-1E02-440C-BB5C-9FCC9960D745}|ParcialfinalprogApi\\ParcialfinalprogApi.csproj|c:\\users\\cande\\onedrive\\escritorio\\parcialfinalprogapi\\parcialfinalprogapi\\parcialfinalprogapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06154F4F-1E02-440C-BB5C-9FCC9960D745}|ParcialfinalprogApi\\ParcialfinalprogApi.csproj|solutionrelative:parcialfinalprogapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06154F4F-1E02-440C-BB5C-9FCC9960D745}|ParcialfinalprogApi\\ParcialfinalprogApi.csproj|c:\\users\\cande\\onedrive\\escritorio\\parcialfinalprogapi\\parcialfinalprogapi\\parcialfinalprogapi\\migrations\\20250609212237_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06154F4F-1E02-440C-BB5C-9FCC9960D745}|ParcialfinalprogApi\\ParcialfinalprogApi.csproj|solutionrelative:parcialfinalprogapi\\migrations\\20250609212237_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06154F4F-1E02-440C-BB5C-9FCC9960D745}|ParcialfinalprogApi\\ParcialfinalprogApi.csproj|c:\\users\\cande\\onedrive\\escritorio\\parcialfinalprogapi\\parcialfinalprogapi\\parcialfinalprogapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06154F4F-1E02-440C-BB5C-9FCC9960D745}|ParcialfinalprogApi\\ParcialfinalprogApi.csproj|solutionrelative:parcialfinalprogapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06154F4F-1E02-440C-BB5C-9FCC9960D745}|ParcialfinalprogApi\\ParcialfinalprogApi.csproj|c:\\users\\cande\\onedrive\\escritorio\\parcialfinalprogapi\\parcialfinalprogapi\\parcialfinalprogapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06154F4F-1E02-440C-BB5C-9FCC9960D745}|ParcialfinalprogApi\\ParcialfinalprogApi.csproj|solutionrelative:parcialfinalprogapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Migrations\\20250609184243_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ParcialfinalprogApi\\Migrations\\20250609184243_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Models\\Transaccion.cs",
+              "RelativeDocumentMoniker": "ParcialfinalprogApi\\Models\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Models\\Transaccion.cs",
+              "RelativeToolTip": "ParcialfinalprogApi\\Models\\Transaccion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T18:18:39.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ParcialfinalprogApi\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ParcialfinalprogApi\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T18:20:30.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Moneda.cs",
+              "DocumentMoniker": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Models\\Moneda.cs",
+              "RelativeDocumentMoniker": "ParcialfinalprogApi\\Models\\Moneda.cs",
+              "ToolTip": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Models\\Moneda.cs",
+              "RelativeToolTip": "ParcialfinalprogApi\\Models\\Moneda.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T18:18:07.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ParcialfinalprogApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\appsettings.json",
+              "RelativeToolTip": "ParcialfinalprogApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-09T19:09:11.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250609212237_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Migrations\\20250609212237_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ParcialfinalprogApi\\Migrations\\20250609212237_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Migrations\\20250609212237_InitialCreate.cs",
+              "RelativeToolTip": "ParcialfinalprogApi\\Migrations\\20250609212237_InitialCreate.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:22:37.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MonedaController.cs",
+              "DocumentMoniker": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Controllers\\MonedaController.cs",
+              "RelativeDocumentMoniker": "ParcialfinalprogApi\\Controllers\\MonedaController.cs",
+              "ToolTip": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Controllers\\MonedaController.cs",
+              "RelativeToolTip": "ParcialfinalprogApi\\Controllers\\MonedaController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T19:05:29.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransaccionController.cs",
+              "DocumentMoniker": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Controllers\\TransaccionController.cs",
+              "RelativeDocumentMoniker": "ParcialfinalprogApi\\Controllers\\TransaccionController.cs",
+              "ToolTip": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Controllers\\TransaccionController.cs",
+              "RelativeToolTip": "ParcialfinalprogApi\\Controllers\\TransaccionController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCAAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T19:00:44.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Program.cs",
+              "RelativeDocumentMoniker": "ParcialfinalprogApi\\Program.cs",
+              "ToolTip": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Program.cs",
+              "RelativeToolTip": "ParcialfinalprogApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T18:16:35.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250609184243_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Migrations\\20250609184243_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ParcialfinalprogApi\\Migrations\\20250609184243_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\cande\\OneDrive\\Escritorio\\ParcialfinalprogApi\\ParcialfinalprogApi\\ParcialfinalprogApi\\Migrations\\20250609184243_InitialCreate.cs",
+              "RelativeToolTip": "ParcialfinalprogApi\\Migrations\\20250609184243_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T18:42:43.973Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
